@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gabriel Luciano de Andrade</title>
+    <meta name=description content="Bem vindos ao espaço Hari!">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="/src/Components/ProjectCards.js" defer></script>
+    <script src="/src/Components/ProjectCardsL.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="apresentacao-imagem" src="/src/imagem/Minha foto.png" alt="My picture">
+        <h1 class="apresentacao">
+            <a class="saudacao"><strong>Seja bem vindo(a) ao meu espacinho!</strong></a>
+        </h1>
+    </header>
+
+    <main class="conteudo">
+            <section class="conteudo-principal">
+                <div class="conteudo-principal-escrito">
+                    <h1 class="conteudo-principal-escrito-titulo">Quem sou?</h1>
+                    <h2 class="conteudo-principal-escrito-subtitulo">Me chamo Gabriel, tenho 19 anos e quero ingressar na área de programação como Dev Front End. Já aprendi sobre HTML, CSS, Javascript e atualmente estou aprendendo sobre Angular.</h2>
+                </div>
+                <img class="conteudo-principal-imagem" src="/src/imagem/Darth-Vader-serie-Disney-Plus-1024x576.jpg" alt="Carro do LFSPRO">
+            </section>
+
+            <section class="conteudo-secundario">
+                <div class="conteudo-secundario-titulo">
+                    <h1 class="descricao">Meu Portfólio</h1>
+                    <h2 class="descricao-sec">Estou criando esse portfólio com o intuito de mostrar vários outros projetos já criados, e sempre tentarei atualizá-lo.</h2>
+                </div>
+            </section>
+    </main>
+
+    <project-card 
+        titulo="Site de Streaming 'HARII'" 
+        descrição="Esse projeto é um dos que tenho mais apego, pois meu hobbie favorito além de jogar videogame é assistir FILMES, então nesse projeto caprichei mesmo pois ele é funcional com atualmente 17 FILMES e cada filme tem sua própria landing page (com sinopse) e sua própria página de reprodução!" 
+        photo="/src/imagem/ProjetoHARII.png">
+    </project-card>
+    <project-card
+        titulo="Teste de Componentes" 
+        descrição="Nesse projeto eu aprendi o que é, para quê servem e como criar componentes, são muito úteis pois conseguimos reutilizar quantas vezes quisermos, inclusive, esse Portfólio faz a utilização de Components e a escrita em vermelho é um teste de Título Dinâmico"
+        photo="/src/imagem/ProjetoComponents.png">
+    </project-card>
+
+    <footer class="rodape">
+        <p class="rodape-escrito">GABRIEL LUCIANO DE ANDRADE</p>
+    </footer>
+
+</body>
+</html>
