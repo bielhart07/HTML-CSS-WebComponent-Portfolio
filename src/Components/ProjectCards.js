@@ -86,6 +86,7 @@ class ProjectCard extends HTMLElement {
                 height: 550px;
                 border-radius: 20px;
                 margin-top: 20px;
+                border: 5px solid black;
             }
 
         `;
